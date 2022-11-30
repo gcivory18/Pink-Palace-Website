@@ -21,17 +21,27 @@ h1 {
     text-align: center;
 }
 
+.directory {
+    color: rgb(246, 15, 246);
+    font-size: 20px;
+    text-align: center;
+}
 
+.link {
+    color: rgb(246, 15, 246);
+    font-size: 20px;
+}
 /* styling for the home html page */
 img {
     border-radius: 8px;
+    border: 1px solid white;
 }
 body {
     background-color: black;
 }
 
 ul:hover {
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.885);
     cursor: pointer;
 }
 
@@ -40,17 +50,17 @@ h3 {
 }
 
 form {
-    padding: 20px;
-    margin: 10px;
-    border-radius: 60px;
-    font: bold;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid rgb(44, 243, 110);
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    background-color: pink;
 }
 
 /* styling for the about html page */
-
-h2 {
-    color:rgb(44, 243, 110)
-}
 
 div {
     color: white;
@@ -64,12 +74,15 @@ div {
     font-size: 17px;
 }
 
+/* Headers Styling */
+
 #first-header {
     font-size: 40px;
 }
 
 #second-header {
     font-size: 30px;
+    color:rgb(44, 243, 110)
 }
 
 #third-header {
