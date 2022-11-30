@@ -1,0 +1,77 @@
+/* styling for the social and merch html page */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    color: white
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+tr:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+
+h1 {
+    color: rgb(235, 124, 209);
+    text-align: center;
+}
+
+
+/* styling for the home html page */
+img {
+    border-radius: 8px;
+}
+body {
+    background-color: black;
+}
+
+ul:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+
+h3 {
+    color: rgb(129, 13, 129);
+}
+
+form {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 60px;
+    font: bold;
+}
+
+/* styling for the about html page */
+
+h2 {
+    color:rgb(44, 243, 110)
+}
+
+div {
+    color: white;
+}
+
+#large-paragraph {
+    font-size: 21px;
+}
+
+#smaller-sentence {
+    font-size: 17px;
+}
+
+#first-header {
+    font-size: 40px;
+}
+
+#second-header {
+    font-size: 30px;
+}
+
+#third-header {
+    font-size: 20px;
+}
